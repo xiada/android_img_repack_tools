@@ -26,31 +26,31 @@ edit_text() {
 
 mkdir external
 
-get_src https://android.googlesource.com/platform/external/sepolicy/
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/external/sepolicy/
 	cd sepolicy
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/system/core
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/system/core
 	cd core
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/system/extras
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/system/extras
 	cd extras
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/external/libselinux
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/external/libselinux
 	cd libselinux
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/bionic
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/bionic
 	cd bionic
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/external/pcre
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/external/pcre
 	cd pcre
 	checkout
 	cd ..
-get_src https://android.googlesource.com/platform/external/zlib
+get_src https://aosp.tuna.tsinghua.edu.cn/platform/external/zlib
 	cd zlib
 	checkout
 	cd ../external
@@ -82,7 +82,7 @@ cp -fv \
        $FILE4 .
        
 echo
-echo "for android.googlesource.com choosed branch $BRANCH..."
+echo "for aosp.tuna.tsinghua.edu.cn choosed branch $BRANCH..."
 echo
 echo "for Cyanogen Mod source choosed branch $BRANCH_EXT..."
 echo
